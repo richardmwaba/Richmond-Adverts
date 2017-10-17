@@ -1289,7 +1289,7 @@ header .header-logo a {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: yellow;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1323,7 +1323,7 @@ header .header-logo a {
   display: block;
   height: 3px;
   width: 24px;
-  background-color: #FFFFFF;
+  background-color: yellow;
   position: absolute;
   top: 50%;
   right: 9px;
@@ -1349,7 +1349,7 @@ header .header-logo a {
  * off-canvas menu - (_layout.scss) 
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
-  background: #0C0C0C;
+  background: darkblue;
   color: rgba(255, 255, 255, 0.25);
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1380,7 +1380,7 @@ header .header-logo a {
   color: white;
 }
 #menu-nav-wrap h3 {
-  color: white;
+  color: yellow;
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
@@ -1402,12 +1402,12 @@ header .header-logo a {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: rgba(255, 255, 255, 0.25);
+  color: yellow;
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
 #menu-nav-wrap .nav-list li a:focus {
-  color: white;
+  color: gray;
 }
 #menu-nav-wrap .header-social-list {
   list-style: none;
@@ -1421,7 +1421,7 @@ header .header-logo a {
   display: inline-block;
 }
 #menu-nav-wrap .header-social-list li a {
-  color: rgba(255, 255, 255, 0.15);
+  color: yellow;
 }
 #menu-nav-wrap .header-social-list li a:hover, 
 #menu-nav-wrap .header-social-list li a:focus {
@@ -1550,7 +1550,7 @@ header .header-logo a {
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2.2rem;
-  color: white;
+  color: yellow;
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin: 0 0 .9rem 0;
@@ -1559,14 +1559,14 @@ header .header-logo a {
   font-family: "montserrat-bold", serif;
   font-size: 9rem;
   line-height: 1.133;
-  color: #FFFFFF;
+  color: yellow;
 }
 .home-content-tablecell .more {
   margin: 4.8rem 0 0 0;
 }
 .home-content-tablecell .more .button {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: yellow;
+  color: yellow;
 }
 
 /* home social-list */
@@ -1595,12 +1595,12 @@ header .header-logo a {
   padding-left: 0;
 }
 .home-social-list li a, .home-social-list li a:visited {
-  color: #FFFFFF;
+  color: yellow;
 }
 .home-social-list li a:hover, 
 .home-social-list li a:focus, 
 .home-social-list li a:active {
-  color: #151515;
+  color: white;
 }
 
 /* scroll down */
@@ -1634,7 +1634,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #FFFFFF !important;
+  color: yellow !important;
   background: transparent;
   position: relative;
   top: 36px;
@@ -1778,7 +1778,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: yellow;
   min-height: 496px;
   text-align: center;
 }
@@ -1786,7 +1786,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: black;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
@@ -1809,7 +1809,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "librebaskerville-bold", serif;
   font-size: 2.2rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: blue;
   margin-top: 6rem;
 }
 
@@ -1918,13 +1918,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #services .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: white;
 }
 #services .section-intro h1 {
-  color: #FFFFFF;
+  color: yellow;
 }
 #services .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: yellow;
 }
 #services .services-content {
   text-align: center;
@@ -1939,7 +1939,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
-  color: rgba(242, 242, 242, 0.5);
+  color: yellow;
 }
 #services .services-list .icon {
   display: inline-block;
@@ -2004,7 +2004,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-  background: #FFFFFF;
+  background: yellow;
   min-height: 800px;
   position: relative;
   padding: 0;
@@ -2014,13 +2014,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: #111111;
 }
 #portfolio .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: white;
 }
 #portfolio .section-intro h1 {
-  color: #FFFFFF;
+  color: yellow;
 }
 #portfolio .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: yellow;
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
@@ -2527,7 +2527,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #000000;
 }
 #contact .section-intro h1 {
-  color: white;
+  color: yellow;
 }
 #contact .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
@@ -2539,12 +2539,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .contact-content {
   max-width: 1024px;
   margin-top: 3rem;
-  color: #FFFFFF;
+  color: yellow;
   z-index: 600;
   position: relative;
 }
 .contact-content h5 {
-  color: #FFFFFF;
+  color: yellow;
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
@@ -2804,7 +2804,7 @@ footer {
   margin: 0 0 5.4rem 0;
   padding: 0;
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: yellow;
 }
 footer a, footer a:visited {
   color: #FFFFFF;
@@ -2816,7 +2816,7 @@ footer .row {
   max-width: 1024px;
 }
 footer h4.h05 {
-  color: #FFFFFF;
+  color: yellow;
   position: relative;
   padding-bottom: 4.2rem;
   margin-bottom: 3.6rem;
@@ -2826,7 +2826,7 @@ footer h4.h05::after {
   content: "";
   width: 100px;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: yellow;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2847,7 +2847,7 @@ footer h4.h05::after {
   padding-left: 0;
 }
 .footer-main ul a, .footer-main ul a:visited {
-  color: rgba(255, 255, 255, 0.4);
+  color: yellow;
 }
 .footer-main ul a:hover, .footer-main ul a:focus {
   color: #FFFFFF;
@@ -2930,7 +2930,7 @@ footer h4.h05::after {
   line-height: 63px;
   text-align: center;
   background-color: #000000;
-  color: #888;
+  color: yellow;
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
@@ -2992,4 +2992,12 @@ footer h4.h05::after {
   .footer-bottom .copyright span::after {
     display: none;
   }
+}
+
+.yellow{
+  color: yellow;
+}
+
+.blue{
+  color: blue;
 }
